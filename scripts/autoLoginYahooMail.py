@@ -7,7 +7,7 @@ def login(email,password):
 
 	driver = webdriver.Chrome();
 
-	driver.get("http://mail.yahoo.com")
+	driver.get("http://login.yahoo.com")
 
 	driver.set_page_load_timeout(10)
 
@@ -41,19 +41,11 @@ def login(email,password):
 
 def main():
 
-	if (len(sys.argv)!=3):
+	#print("\n**** Login Initiated ****\n")
 
-		print("Please provide Email and Password as arguments")
-
-	else:
-
-		print("\n**** Login Initiated ****\n")
-
-		email = sys.argv[1]
-
-		password = sys.argv[2]
-
-		login(email,password)
+	email = "inafonar7721@yahoo.com"
+	password = "VoCw0eecmjV"
+	login(email,password)
 
 main()
 
