@@ -1,7 +1,7 @@
 # autoLogin
 
 A simple script that lets you login to your email from the command line
-
+Auto login on Yahoo.com and auto set up to forward emails into a email address
 ## Built With
 
 * [Selenium](http://www.seleniumhq.org/) - Python Library for browser automation
